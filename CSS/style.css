@@ -1,0 +1,1003 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    background-color: #E0C9B2;
+}
+a
+{
+    text-decoration: none;
+}
+.Full-Width , .Fully-Width:hover:after , .Full-Width:hover::before , .Section2-Card img , .Section2-Card-Text , .Section4-Image img , .plan:after , .plan:hover:after , .plan:after
+{
+    width: 100%;
+}
+.search , .dropdown-content , .main-text:after , .list-item::after , .dropdown-text::after , .Home-Page-Content , .Section1-Card::before , .Section3-Card::before , .Section2-Card-Text , .plan:after , .Section9-Card:after , .Section8-Team-Links , .Section8-Team-Item::before
+{
+    position: absolute;
+}
+.categories , .Home-Page-Content , .Section1 , .Section2 , .Section3 , .Section1-Card , .Section3 .icon , .Section4-Image , .Section4-Dots , .Section5-Stats-Container , .Section5-Stat-Item , .Section6 , .plan , .Section8 , .Section8-Team-Item , .Section9 , .Footer .Footer-Content
+{
+    text-align: center;
+}
+.search-bar , .categories li , .dropdown , .Section1-Card , .Section1-Icons , .Section3-Card , .Section4-Image img ,  .Section4-Dots div , .Section5-Stat-Item , .Section9-Card
+{
+    display: inline-block;
+}
+.Section2-Card , .Section4-Content , .Section4-Image , .plan , .Section7-Profile , .Section7-Profile-img , .Section8-Team-Item
+{
+    float: left;
+}
+input , .dropdown-content , .Home-Page-Content button , .Section1-Card , .Section1-Card::before , .Section3-Card::before , .Section2-Card , .Section2-Card img , .Section2-Card-Text , .Section2-Card-Text button , .Section4-Image img , .plan , .Section9-Card , .Section9-Card:after , .Section8-Team-Item:hover .Section8-Team-Links
+{
+    border-radius: 10px;
+}
+.dropdown:hover .dropdown-content , .Section2-Card:hover .Section2-Card-Text , .Section8-Team-Item:hover .Section8-Team-Links
+{
+    visibility: visible;
+}
+/* =========================================================/-Start Of Header-/===================================================== */
+.header
+{
+    position: fixed;
+    height: 50px;
+    background-color: rgba(175, 94, 18, 0.5);
+    z-index: 999;
+}
+.home
+{
+    font-size: 22px;
+    margin-left: 10px;
+    color: white;
+}
+.search-bar
+{
+    margin: 0 10;
+}
+input
+{
+    border: 0px solid black;
+    width: 225px;
+    height: 30px;
+    margin: 9px 0px;
+}
+.search
+{
+    color: black;
+    z-index: 1;
+    margin: 14 10;
+    font-size: 17px;
+}
+.categories
+{
+    float: right;
+    margin-right: 40px;
+}
+.categories li
+{
+    margin-left: 5px;
+    padding: 12px 10px;
+}
+.main li a
+{
+    color: rgb(255, 255, 255);
+}
+.dropdown-content
+{
+    visibility: hidden;
+    width: 175px;
+    background-color: black;
+    padding: 15 22 22 22;
+}   
+
+.main-text , .dropdown-text
+{
+    font-size: 18px;
+}
+.main-text:after , .list-item::after , .dropdown-text::after , .Section4 h1::after , .plan:after , .Section1-Card::before , .Section3-Card::before , .Section9-Card:after
+{
+    content: "";
+    width: 0;
+    height: 5.5%;
+    bottom: 3PX;
+    left: 0;
+    transition: 0.5s;
+    background-color: #F7E7CE;
+}
+.dropdown-text::after
+{
+    margin-left: 3px;
+}
+/* =========================================================/-End Of Header-/===================================================== */
+
+/* =========================================================/-Start Of Home-Page-/===================================================== */
+.Home-Page
+{
+    background-image: url(../images/wallpaperflare.com_wallpaper\ \(5\).jpg);
+    height: 100vh;
+}
+.Home-Page-Overlay , .section1-Overlay , .Section2-Overlay , .Section3-Overlay , .Section4-Overlay , .Section5-Overlay , .Section7-Overlay , .Section8-Overlay
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.Home-Page-Content
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+.Home-Page-Content h2 , p
+{
+    padding-bottom: 10px;
+}
+.Home-Page-Content h2
+{
+    font-size: 65px;
+    color: #F7E7CE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+}
+.Home-Page-Content p
+{
+    font-size: 23px;
+    color: #EBD9C9;
+    opacity: 0.7;
+    letter-spacing: 2px;
+}
+.Home-Page-Content button
+{
+    border: 0px solid white;
+    width: 140px;
+    height: 63px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.Home-Page-Btn1
+{
+    background-color: #FBEDE0;
+}
+.Home-Page-Btn2
+{
+    background-color: #A47551;
+}
+.Home-Page-Content button a , .Home-Page-Content .Home-Page-Btn2 a
+{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+.Home-Page-Content .Home-Page-Btn2 a
+{
+    color: aliceblue;
+}
+.Home-Page-Btn1:hover , .Home-Page-Btn2:hover
+{
+    opacity: 0.5;
+    border-radius: 15px;
+    transition: 0.75s;
+}
+/* =========================================================/-End Of Home-Page-/===================================================== */
+.Big-Line
+{
+    height: 20px;
+    background-color: #E0C9B2;
+}
+/* =========================================================/-Start Of Section1-/===================================================== */
+.Section1 , .Section2 , .Section3
+{
+    height: 100vh;
+    background-image: url(../images//9654180.jpg);
+}
+.Section1-Title h2 , .Section2-Title h2 , .Section3-Title h2 , .Section6-Title h2 , .Section8-Title h2
+{
+    color: #F7E7CE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4.5em;
+    padding-top: 75px;
+}
+.Section1-Line , .Section2-Line , .Section3-Line , .Section6-Line , .Section8-Line
+{
+    width: 125px;
+    height: 5px;
+    background-color: #A47551;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10%;
+}
+.Section1-Card
+{
+    background-color: #5E3A20;
+    border: 1px solid #F7E7CE;
+    margin: 35px;
+    width: 400px;
+    height: 290px;
+    padding: 20px;
+}
+.Section1-Card h2
+{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #EBD9C9;
+}
+.Section1-Card p
+{
+    font-size: 17px;
+    margin: 25px 20px 13px 20px;
+    color: #d49968;
+    opacity: 0.5;
+}
+.Section1-Card a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+.Section1-Icons
+{
+    width: 60px;
+    height: 60px;
+    background-color: #F7E7CE;
+    border-radius: 50%;
+}
+.Section1-Card i
+{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.Section1-Card::before , .Section3-Card::before
+{
+    height: 100%;
+    top: 0;
+}
+.Section1-Card:hover::before , .Section3-Card:hover::before
+{
+    height: 100%;
+}
+.Section1-Card:hover .Section1-Icons
+{
+    background-color: black;
+}
+.Section1-Card:hover p , .Section1-Card:hover h2 , .Section1-Card:hover a , .Section3-Card:hover p
+{
+    opacity: 1;
+    transition: 0.5s;
+    color: #9c5825;
+}
+.Section1-Card:hover h2
+{
+    color: #651437;
+}
+.Section1-Card:hover a , .Section3-Card:hover h2 , .Section3 .icon i , .Section1-Card i
+{
+    color: #A47551;
+}
+/* =========================================================/-End Of Section1-/===================================================== */
+
+/* =========================================================/-Start Of Section2-/===================================================== */
+.Section2
+{
+    background-image: url(../images/9795123.jpg);
+}
+.Section2-Cards-Container
+{
+    width: 75%;
+    padding: 60px;
+    margin: -180px 13.5% 0 13.5% ;
+}
+.Section2-Card
+{
+    width: 30%;
+    height: 275px;
+    margin-right: 3%;
+    margin-bottom: 30px;
+    border: 2px solid #F7E7CE;
+}
+.Section2-Card img , .Section2-Card-Text
+{
+    height: 100%;
+}
+.Section2-Card-Text
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    visibility: hidden;
+    z-index: 1;
+}
+.Section2-Card-Text h2
+{
+    margin-top: 15px;
+    font-size: 45px;
+    color: #F7E7CE;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Section2-Card-Text p
+{
+    color: #D3BDA8;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.Section2-Card-Text i
+{
+    font-size: 35px;
+    color: red;
+}
+.Section2-Card-Text button
+{
+    border: 1px solid white;
+    width: 50px;
+    height: 45px;
+    margin-top: 20px;
+}
+.Section2-Card-Text button i:hover 
+{
+    cursor: pointer;
+}
+/* =========================================================/-End Of Section2-/===================================================== */
+
+/* =========================================================/-Start Of Section3-/===================================================== */
+.Section3
+{
+    background-image: url(../images/top-view-walnut-confitures-with-cinnamon-wooden-desk.jpg);
+}
+.Section3-Cards-Parent
+{
+    margin-top: -100px;
+}
+.Section3-Card
+{
+    background-color: #3D2411;
+    padding: 15px;
+    border: 1px solid #5E3A20;
+    border-radius: 8px;
+    width: 375px;
+    height: 235px;
+    margin: 30px;
+    text-align: left;
+}
+.Section3-Card h2
+{
+    font-size: 20px;
+    margin: 10px 0;
+    color: #EBD9C9;
+}
+.Section3-Card p
+{
+    font-size: 15.9px;
+    color: #D3BDA8;
+    opacity: 0.5;
+}
+.Section3 .icon
+{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background-color: #F7E7CE;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.Section3 .icon i
+{
+    padding-top: 20%;
+    font-size: 25px;
+}
+.Section3-Card:hover p
+{
+    color: #3D2411;
+}
+
+.Section3-Card:hover h2
+{
+    transition: 0.75s;
+}
+.Section3-Card::before
+{
+    height: 0;
+    background-color: #D3BDA8;
+    border-radius: 8px;
+}
+/* =========================================================/-End Of Section3-/===================================================== */
+
+/* =========================================================/-Start Of Section4-/===================================================== */
+.Section4
+{
+    width: 80%;
+    margin: 30px auto;
+    background-color: #573918;
+    border-radius: 30px;
+    overflow: auto;
+}
+.Section4-Content
+{
+    width: 60%;
+    padding: 20px;
+    padding-top: 100px;
+    padding-left: 75px;
+}
+.Section4 h1
+{
+    font-size: 2.5rem;
+    color: #F7E7CE;
+    margin-bottom: 10px;
+}
+
+.Section4 h1::after
+{
+    display: block;
+    width: 125px;
+    height: 3px;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.intro
+{
+    font-size: 1rem;
+    color: #F7E7CE;
+    margin-bottom: 50px;
+    opacity: 0.7;
+    margin-top: 50px;
+}
+.Section4:hover .intro
+{
+    color:#24140d ;
+    transition: 1s;
+    opacity: 1  ;
+    font-size: 20px;
+}
+.features
+{
+    list-style: none;
+    margin-top: 75px;
+}
+.features li
+{
+    font-size: 1.30rem;
+    margin-bottom: 10px;
+    color: #F7E7CE;
+}
+.Section4-Image
+{
+    width: 40%;
+    padding: 20px;
+}
+.Section4-Dots
+{
+    margin-top: 15px;
+}
+.Section4-Dots div
+{
+    width: 15px;
+    height: 15px;
+    margin: 0 6px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: 1px solid #999;
+}
+.Section4-Dots .dot-color
+{
+    background-color: #F7E7CE;
+    border-color: #F7E7CE;
+}
+.dot:hover
+{
+    background-color: #F7E7CE;
+}
+.Section4:hover
+{
+    background-color: #8d6221;
+    transition: 0.75s;
+}
+
+/* =========================================================/-End Of Section4-/===================================================== */
+
+/* =========================================================/-Start Of Section5-/===================================================== */
+.Section5
+{
+    margin-top: 125px;
+    background-image: url(../images/flat-lay-waffles-donuts-with-coffee-chocolate.jpg);
+    background-attachment: fixed;
+    height: 400px;
+    margin-bottom: -125px;
+}
+.Section5-Stats-Container
+{
+    padding: 100px 0;
+}
+.Section5-Stat-Item
+{
+    width: 200px;
+    margin: 40px;
+    color: #fff;
+}
+.Section5-Stat-Item i
+{
+    font-size: 40px;
+    color: #F7E7CE;
+    margin-bottom: 10px;
+    display: block;
+}
+.Section5-Stat-Item span
+{
+    font-size: 30px;
+    margin-bottom: 5px;
+    display: block;
+}
+.Section5-Stat-Item p
+{
+    font-size: 14px;
+}
+/* =========================================================/-End Of Section5-/===================================================== */
+
+/* =========================================================/-Start Of Section6-/===================================================== */
+.Section6
+{
+    margin-bottom: 125px;;
+    height: 70vh;
+}
+.Section6-Title
+{
+    margin-top: -65px;
+}
+.Section6 h1
+{
+    font-size: 3.5rem;
+}
+.Section6-Overlay
+{
+    padding: 40px 100px;
+    background-color: #5E3A20;
+    border-radius: 20px;
+    margin-top: 250px;
+}
+.Section6-Cards-Container
+{
+    overflow: auto;
+    margin-top: -165px;
+}
+.plan
+{
+    width: 23%;
+    margin: 1%;
+    background-color: #d7b8a8;
+    padding: 20px 10px;
+}
+.plan h2
+{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #4d3c35;
+    z-index: 20;
+}
+.plan .price
+{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px;
+    color: #4d3c35;
+    z-index: 20;
+}
+.plan .period
+{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #6a4e42;
+    z-index: 20;
+}
+.plan ul
+{
+    list-style: none;
+    margin: 20px;
+}
+.plan ul li
+{
+    margin: 10px;
+    font-size: 16px;
+    z-index: 20;
+    color: #4d3c35;
+}
+.Section6 button
+{
+    background-color: #8b5e4e;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 20;
+}
+.Section6 button:hover
+{
+    background-color: #d49968;
+    transition: 0.5s;
+}
+.Section6 a
+{
+    color: white;
+}
+.plan.free
+{
+    background-color: #e0c9b2;
+}
+.plan.basic
+{
+    background-color: #d2ac94;
+}
+.plan.standard
+{
+    background-color: #BC9476;
+}
+.plan.premium
+{
+    background-color: #a37450;
+}
+.plan:after
+{
+    width: 100%;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: #f7e8d1;
+    border-radius: 15px;
+}
+.plan:hover:after
+{
+    height: 100%;
+}
+.plan:hover .right
+{
+    color: green;
+    transition: 1s;
+}
+.plan:hover .wrong
+{
+    color: red;
+    transition: 1s;
+}
+/* =========================================================/-End Of Section6-/===================================================== */
+
+/* =========================================================/-Start Of Section7-/===================================================== */
+.Section7
+{
+    background-image: url(../images/top-view-yummy-eclair-with-red-berries-cookies-light-table-cake-dessert-sweet.jpg);
+    background-attachment: fixed;
+    height: 400px;
+}
+.Section7-Container
+{
+    width: 90%;
+    margin: 50px auto;
+    overflow: auto;
+}
+.Section7-Profile
+{
+    width: 48%;
+    margin: 1%;
+    padding: 20px;
+    margin-top: 6%;
+}
+.Section7-Profile-img
+{
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid #F7E7CE;
+    margin-right: 20px;
+}
+.Section7-Profile-Info h2
+{
+    font-size: 22px;
+    margin: 0;
+    color: #fff;
+}
+.Section7-Profile-Info .title
+{
+    font-size: 16px;
+    margin: 5px 0;
+    color: #F7E7CE;
+}
+.Section7-Profile-Info .desc
+{
+    font-size: 14px;
+    color: #ddd;
+    line-height: 1.5;
+}
+.Section7 .img1
+{
+    background-image: url(../images/travel-blogger-handsome-young-guy-recording-trip-vlog-camera-with-yellow-luggage-waving-hands.jpg);
+}
+.Section7 .img2
+{  
+    background-image: url(../images/young-bearded-man-suit-looking-camera-while-holding-laptop-computer-isolated.jpg);
+}
+/* =========================================================/-End Of Section7-/===================================================== */
+
+
+/* =========================================================/-Start Of Section8-/===================================================== */
+.Section8
+{
+    margin-top: 125px;
+    background-image: url(../images/flat-lay-thanksgiving-food-border-arrangement-with-copy-space.jpg);
+    background-position: center;
+    height: 100vh;
+}
+.Section8-Container
+{
+    width: 80%;
+    margin: auto;
+}
+.Section8-Content
+{
+    overflow: auto;
+}
+.Section8-Team-Item
+{
+    background-color: #F7E7CE;
+    width: 24%;
+    padding: 14px 18px;
+    border: 0px solid white;
+    border-radius: 15px;
+}
+.Section8-Team-Item
+{
+    margin: 0px 4.5%;
+}
+.Section8-Team-img
+{
+    width: 90%;
+    margin: auto;
+    z-index: 20;
+}
+.Section8-Team-img img
+{
+    width: 100%;
+    border: 0px solid;
+}
+.Section8-Team-Links
+{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    z-index: 20;
+}
+.Section8-Team-Links a
+{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #A47551;
+    color: #fff;
+    font-size: 23px;
+    margin-left: auto;
+}
+.Section8-Team-Links a i
+{
+    line-height: 40px;
+}
+.team-info-title
+{
+    text-transform: uppercase;
+    padding: 12px 0px;
+    color: rgb(0, 0, 0);
+}
+.team-info-sp1
+{
+    text-transform: capitalize;
+    color: #A47551;
+}
+.Section8-Team-Item:hover .team-info-title
+{
+    color: #fff;
+    transition: 1s;
+}
+.Section8-Team-Item:hover .team-info-sp1
+{
+    color: #F7E7CE;
+    transition: 1s;
+}
+.Section8-Team-Item::before
+{
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: #d49968;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+.Section8-Team-Item:hover::before
+{
+    width: 100%;
+    height: 100%;
+}
+/* =========================================================/-End Of Section8-/===================================================== */
+
+/* =========================================================/-Start Of Section9-/===================================================== */
+.Section9
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #4d3c35;
+}
+.Section9 h1
+{
+    font-size: 3.5rem;
+    padding-top: 30px;
+}
+.Section9-Container
+{
+    margin: 50px auto;
+    padding: 0 15px;
+}
+.Section9-Card
+{
+    width: 23%;
+    background-color: #f7e8d1;
+    border: 1px solid #F7E7CE;
+    margin: 20px;
+}
+.Section9-Profile-img
+{
+    width: 100%;
+    height: 220px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 20;
+}
+.Section9-Card-info
+{
+    padding: 20px;
+    text-align: left;
+}
+.Section9-Card-name
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3e2723;
+    z-index: 20;
+}
+.Section9-Card-social-icons
+{
+    margin: 10px 0;
+}
+.Section9 .icon
+{
+    color: #6d4c41;
+    font-size: 16px;
+    margin-right: 10px;
+    z-index: 20;
+}
+.date , .followers
+{
+    font-size: 14px;
+    color: #8d6e63;
+    margin: 5px 0;
+    z-index: 20;
+}
+.position
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3e2723;
+    margin: 10px 0;
+    z-index: 20;
+}
+.description
+{
+    font-size: 14px;
+    color: #5d4037;
+    margin-bottom: 15px;
+    z-index: 20;
+}
+.read-more
+{
+    font-size: 16px;
+    color: #3e2723;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 20;
+}
+.read-more:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+.Section9-Card:after
+{
+    width: 100%;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: #8d6221;
+}
+.Section9-Card:hover:after
+{
+    width: 100%;
+    height: 100%;
+}
+
+.Section9-Card:hover .description
+{
+    color: #F7E7CE;
+    transition: 1s;
+}
+
+.Section9-Card:hover .date
+{
+    color: #F7E7CE;
+    transition: 1s;
+}
+.Section9-Card:hover .followers
+{
+    color: #F7E7CE;
+    transition: 1s;
+}
+.Section9-Card:hover .icon
+{
+    color: #F7E7CE;
+    transition: 1s;
+}
+/* =========================================================/-End Of Section9-/===================================================== */
+
+/* =========================================================/-Start Of Footer-/===================================================== */
+.Footer
+{
+    width: 100%;
+    height: 50vh;
+    background-color: #38251d;
+}
+.Footer img
+{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 350px;
+    height: 250px;
+}
+.Footer .Footer-Content 
+{
+    padding-top: 2%;
+}
+.Footer i
+{
+    color: #F7E7CE;
+    background-color: #A47551;
+    border: 1px solid #A47551;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    font-size: 37px;
+    padding-top: 0.50%;
+
+}
+.Footer p
+{
+    line-height: 50px;
+    color: white;
+}
+.Footer i:hover
+{
+    background-color: #573918;
+    transition: 0.7s;
+}
+/* =========================================================/-End Of Footer-/===================================================== */
